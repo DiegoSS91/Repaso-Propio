@@ -1,0 +1,27 @@
+/* selector universal */
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* selectores (Etiqueta) */
+body{
+        background-color: #74766e;
+    }
+h1  {
+        color:#b8400c;
+        text-align: center;
+    }
+
+p   {
+        color: #0e5c03;
+    }
+
+/* selectores (Id) */
+#ultimoParrafo{ color: #ffffff;}
+
+/* selectores (Class) */
+.parrafoRojo{color: #b8400c;}
