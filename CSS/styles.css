@@ -1,3 +1,6 @@
+/* poner letra de googlr font */
+/* @import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap'); */
+
 /* selector universal */
 *{
     list-style: none;
@@ -15,13 +18,28 @@ h1  {
         color:#b8400c;
         text-align: center;
     }
-
-p   {
+h1:hover{
+    color: #000000;
+}
+    
+    p   {
         color: #0e5c03;
-    }
+            }
 
 /* selectores (Id) */
 #ultimoParrafo{ color: #ffffff;}
 
 /* selectores (Class) */
-.parrafoRojo{color: #b8400c;}
+.parrafoRojo{
+    color: #b8400c;
+    /* poner letra  */
+    /* font-family: 'Palette Mosaic', cursive; */
+}
+
+/* selectores decendientes */
+
+div p {
+    color: #e1c32e;
+}
+
+p>strong{ color: #000000;}
